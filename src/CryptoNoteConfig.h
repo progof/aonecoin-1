@@ -21,7 +21,7 @@ namespace parameters {
 #define CRYPTONOTE_MAX_BLOCK_NUMBER                     500000000
 #define CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                  500000000
 #define CRYPTONOTE_MAX_TX_SIZE                          1000000000
-#define CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX         0xe34abb6 // starts with "Xaone"
+#define CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX         0x2645 // starts with "a1"
 #define CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW            30
 #define CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT              360 //keep it to 6 minutes to prevent bad behavior. 
 
@@ -123,8 +123,8 @@ namespace parameters {
 #define BLOCKS_SYNCHRONIZING_DEFAULT_COUNT              4096
 #define COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT           1000
 
-#define P2P_DEFAULT_PORT                                6780
-#define RPC_DEFAULT_PORT                                6781
+#define P2P_DEFAULT_PORT                                7340
+#define RPC_DEFAULT_PORT                                7341
 
 #define P2P_LOCAL_WHITE_PEERLIST_LIMIT                  1000
 #define P2P_LOCAL_GRAY_PEERLIST_LIMIT                   5000
@@ -142,9 +142,9 @@ namespace parameters {
 
 
 const std::initializer_list<const char*> SEED_NODES {
-   "seed1.aonecoin.cc:6780",
-   "seed2.aonecoin.cc:6780",
-   "seed3.aonecoin.cc:6780"
+   "seed1.aonecoin.cc:7340",
+   "seed2.aonecoin.cc:7340",
+   "seed3.aonecoin.cc:7340"
   
 };
 
