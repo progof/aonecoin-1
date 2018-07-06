@@ -54,7 +54,7 @@ namespace parameters {
 #define ALLOY_TRANSACTION_SIZE_LIMIT                    100000 
 #define MEMPOOL_POLLING_INTERVAL                        60 // how often to clean mempool
 
-#define DIFFICULTY_TARGET                               180
+#define DIFFICULTY_TARGET                               150
 #define EXPECTED_NUMBER_OF_BLOCKS_PER_DAY               24 * 60 * 60 / DIFFICULTY_TARGET
 #define DIFFICULTY_WINDOW                               EXPECTED_NUMBER_OF_BLOCKS_PER_DAY
 #define DIFFICULTY_WINDOW_V1                            DIFFICULTY_WINDOW
